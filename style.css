@@ -1,0 +1,20 @@
+#app {
+    width: 100%;
+    height: 800px;
+    background-color: cyan;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 80px auto;
+}
+
+img {
+    transition: transform.2s;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
